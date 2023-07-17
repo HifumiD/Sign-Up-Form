@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Sign Up Form</title>
+</head>
+<body>
+    <div class="sign-box">
+        <div class="sign-upbox">
+            <h2 class="welcome">Welcome !</h2>
+            <h2 class="sign">Sign Up ↓</h2>
+
+            <form action="#" class="form form" method="POST">
+
+                <label  for="name">*Name</label>
+                <input  type="text" id="name" name="name" required>
+
+                <label  for="user_password">*Password</label>
+                <input  type="password" id="user_password" name="password" minlength="5" required>
+                <label  for="confirm_password">*Confirm Password</label>
+                <input  type="password" id="confirm_password" name="confirm_password" required>
+
+
+                <label  for="user_email">*Email Address</label>
+                <input  type="email" id="user_email" name="email" placeholder="you@example.com" required>
+
+                <label  for="user_phone">Phone</label>
+                <input  type="tel" id="user_tel" name="tel" placeholder="017293712">
+
+                <button class="create-account">Create Account</button>
+
+        
+                
+            </form>
+            
+            <div class="account-message">
+                <h1 class="message-text">Already have an account?</h1>
+                <a href="">Log In</a>
+            </div>
+
+        </div>
+        
+    </div>
+</body>
+</html>

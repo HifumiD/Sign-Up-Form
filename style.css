@@ -1,0 +1,164 @@
+body{
+    background-image:url(background.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@font-face {
+    font-family: 'Pixel'; /*a name to be used later*/
+    src: url('vermin.ttf'); /*URL to font*/
+
+}
+
+@font-face {
+    font-family: 'Pixel2'; /*a name to be used later*/
+    src: url('Xeliard.ttf'); /*URL to font*/
+}
+
+.sign-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 500px;
+    height: 900px;
+    background-color: rgb(0,0, 0 , 0.9);
+    border-radius: 10px;
+}
+
+.sign-upbox{
+    width: 400px;
+    height: 800px;
+    border: 1px solid pink;
+    border-radius: 10px;
+
+    
+    
+}
+
+.welcome{
+    background: -webkit-linear-gradient(#ff89ff, #35a0dd);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+    font-family: Pixel ,Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    letter-spacing: 1px;
+
+    text-align: center;
+    
+}
+
+.welcome:hover{
+    cursor: default;
+    background: -webkit-linear-gradient(#43d9ff, #c47fda);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+
+}
+
+.sign:hover{
+    cursor: default;
+    background: -webkit-linear-gradient(#43d9ff, #c47fda);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+
+.message-text:hover{
+    cursor: default;
+    background: -webkit-linear-gradient(#43d9ff, #c47fda);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+
+.sign{
+    background: -webkit-linear-gradient(#ff89ff, #35a0dd);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+    font-family: Pixel ,Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    letter-spacing: 1px;
+
+    text-align: center;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;   
+
+    text-align: center;
+}
+
+.form button{
+    border-radius: 5px;
+    background: rgb(238, 238, 238);
+    background: linear-gradient(90deg, rgb(255, 178, 236) 0%,
+     rgb(128, 168, 255) 35%, rgb(238, 181, 255) 100%);
+    border: 1px solid;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.form label {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 5px;
+
+    background: -webkit-linear-gradient(#ff89ff, #35a0dd);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+    font-family: Pixel2 ,Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+  }
+
+.form input[type="text"],
+.form input[type="password"],
+.form input[type="email"],
+.form input[type="tel"] {
+    width: 70%;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+    border-radius: 20px;
+    background: rgb(238, 238, 238);
+    background: linear-gradient(90deg, rgb(255, 178, 236) 0%,
+     rgb(128, 168, 255) 35%, rgb(238, 181, 255) 100%);
+    border: 1px solid;
+}
+
+
+form.form input:invalid {
+    border-color: red;
+  }
+  
+  form.form input:valid {
+    border-color: green;
+    background: linear-gradient(90deg, rgb(255, 178, 236) 0%,
+     rgb(128, 168, 255) 35%, rgb(238, 181, 255) 100%);
+  }
+
+.account-message{
+    background: -webkit-linear-gradient(#ff89ff, #35a0dd);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+    font-family: Pixel ,Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    letter-spacing: 1px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+::placeholder {
+    color: #750b0b; 
+    font-style: italic; 
+  }
